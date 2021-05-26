@@ -1,4 +1,4 @@
-<h1> Shell </h1>
+<h1 align="Center"> Shell </h1>
 
 ###  Command Types :
 
