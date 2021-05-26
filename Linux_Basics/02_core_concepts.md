@@ -1,4 +1,4 @@
-<h1> Linux Core Concepts </h1>
+<h1 align="center"> Linux Core Concepts </h1>
 
 Linux Kernal
 
