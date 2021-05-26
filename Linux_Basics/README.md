@@ -1,11 +1,11 @@
 <h1 align="center"> Linux Basics </h1>
 
-Ojectives
-1.  Working with shell
-2. Linux Core concepts
-3. Package Management
-4. Shell & Bash
-5. Security and file permission
-6. Linux Networking 
-7. Storage in Linux
-8. System MD and services
+### Ojectives
+* Working with shell
+* Linux Core concepts
+* Package Management
+* Shell & Bash
+* Security and file permission
+* Linux Networking 
+* Storage in Linux
+* System MD and services
