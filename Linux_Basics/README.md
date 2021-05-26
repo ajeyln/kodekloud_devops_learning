@@ -1,4 +1,4 @@
-Linux Basics
+<h1 align="center"> Linux Basics </h1>
 
 Ojectives
 1.  Working with shell
