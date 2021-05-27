@@ -41,10 +41,10 @@ To determine the command is internal or external use the "type" command.
 
 ### commands
 
-$Shell - find the type of shell
-chsh - to change the shell
-alias - to make the command short
-history - to check previous executed commands.
-env- to check the enviornment variable in system
-export - set env.
+* $Shell - find the type of shell
+* chsh - to change the shell
+* alias - to make the command short
+* history - to check previous executed commands.
+* env- to check the enviornment variable in system
+* export - set env.
 
