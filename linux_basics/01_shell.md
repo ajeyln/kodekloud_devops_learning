@@ -29,7 +29,6 @@ To determine the command is internal or external use the "type" command.
 + ls 1-ltr - which list the files in reverse order <br/>
 + apropos - which will search the page and description for specific keywords.
 
-<h1>**Shells**</h1>
 
 ### Types of shells
 
