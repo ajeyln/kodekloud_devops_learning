@@ -57,10 +57,11 @@
 
 ### File Permission & ownership
 
-* ls -l filename - to check the userpermission <br/>
-|Bit|Purpose|Octal Value|
-|----|------|-------|
-|r| read|4|
+* ls -l filename - to check the userpermission <p>
+
+|Bit| Purpose| Octal Value|
+|----|------| -------|
+| r| read| 4|
 |w| write| 2|
 |x| execute | 1|
 || no permission| -|
