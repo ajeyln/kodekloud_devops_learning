@@ -39,7 +39,7 @@ runlevel - check operation mode in system
 |Run Level  | System Targets  |Function | Display Manager Service |
 |-------|------|------|-------|
 |5| graphical.target | Boots into Graphical Interference | Enabled|
-|3| | multiuser.target |Boots into CLT | Disabled |
+|3| multiuser.target |Boots into CLT | Disabled |
 
 systemctl get-default - current operation mode
 (ls -ltr /etc/systemd/system/default.target)
