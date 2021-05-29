@@ -37,7 +37,7 @@ runlevel - check operation mode in system
 **most common run levels**
 
 |Run Level  | System Targets  |Function | Display Manager Service |
-|-------|------|------|-------|-------|
+|-------|------|------|-------|
 |5| graphical.target | Boots into Graphical Interference | Enabled|
 |3| | multiuser.target |Boots into CLT | Disabled |
 
