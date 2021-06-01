@@ -81,6 +81,63 @@
 * chown owner filename - change ownership
 * chgrp gropuname filename - to change group
 
+### SSH & SCP
+
++ SSH - used to logging into and executing command into remote computer
+	* for this port 22 shold be open 
+	* ssh <ip address>
+
+* To connect server or remote compute without password, need to generate  Keypair
+**Keypair** = Private key +Public Key 
+* ssh-keygen -t rsa - to generate keypair
+* private Key stored in  /home/username/.ssh/id_rsa
+* public Key stored in  /home/username/.ssh/id_rsa.pub
+
++ SCP - to copy data over SSH.
+	* scp filename hostname:path
+	
+### Iptables
+
+* sudo apt install iptables - to install iptables
+* sudo iptables -L - list the defult rules configured in system.
+	+ chain input
+	+ chain forward
+	+ chain output
+
+#### Iptables - securing enviornment
+
+* iptables -A INPUT -p tcp -s <source ip> --dport 22 -j ACCEPT/ DROP
+
+| Option | Description |
+|------| ------ |
+| -A | Add rule |
+| -p | Protocol |
+| -s | Source |
+| -d | Destination |
+| --dport | Destination Port |
+| -j | Action to take |
+
+* iptable -i INPUT - where "i" will modify the current rule of the IPTABLE.
+* iptable -D INPUT <position> - where "D" will delete the content in IPTABLE in <position>
+
+### CRON
+
++ Scheduling the job  using CRONJOB
++ crontab -e - to schedule the job 
+	the pattern of the input will be 
+
+	**Minute Hour Day Month  Weekday**
++ crontab -l - to listout the scheduled tasks
++ tail /var/log/syslog - check the status of the tasks.
+
+Labs:
+
++ Account Management
++ Permission and Ownership
++ SSH and SCP
++ Iptables
++ Cronjobs
+
 
 
 	
