@@ -47,3 +47,8 @@ To determine the command is internal or external use the "type" command.
 * env- to check the enviornment variable in system
 * export - set env.
 
+### Labs
+
+* Working with the shell - basic command such as mkdir, cp ls etc.
+* Linux bash prompt - basic bash command such chsh,export etc.
+
