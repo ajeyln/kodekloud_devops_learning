@@ -75,4 +75,13 @@ Command for compress and extracting
 + :wq - to save and quit
 + :q! - quit without saving
 
+### LABS
+
+* Working with shell - 
+	+ compress command - bzip2, tar
+	+ redirection command - > and >> commands
+	+ searching pattern - grep -i word filename , grep word filename
+	
+* vi editor - editing, copy , delet in vi editor
+
 
