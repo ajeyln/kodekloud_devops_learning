@@ -130,14 +130,6 @@
 + crontab -l - to listout the scheduled tasks
 + tail /var/log/syslog - check the status of the tasks.
 
-Labs:
-
-+ Account Management
-+ Permission and Ownership
-+ SSH and SCP
-+ Iptables
-+ Cronjobs
-
 ### Labs
 
 * Account Management - Managing user account using useradd,  assigning user id and group id ,updating password.
