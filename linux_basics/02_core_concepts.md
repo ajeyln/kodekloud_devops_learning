@@ -91,4 +91,9 @@ ls -ld - first letter is identifier <br />
 	+ /tmp - temp data
 	+ /usr - userland applications & data (Firefox,chrome etc..)
 	+ /var - log files
+
+### Labs
+
+* Linux Kernel - Core commands such as lsblk, lscpu, lsmem etc.
+* Linux Kernel Modules and Filetypes - Boot modules commands such as systemctl,lshw,lsblk etc.
 	
