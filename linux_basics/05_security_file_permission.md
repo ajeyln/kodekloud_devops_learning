@@ -138,6 +138,14 @@ Labs:
 + Iptables
 + Cronjobs
 
+### Labs
+
+* Account Management - Managing user account using useradd,  assigning user id and group id ,updating password.
+* Permission and Ownership - Check and change user permission using chmod, changing ownership using chown etc.
+* SSH and SCP - connecting the remote servers using ssh, copying the files from remote servers using scp etc.
+* IPTABLES - rules configuration addrule, modifying rule etc.
+* cronjobs - scheduling the task using crontab, editing current scheduled task etc.
+
 
 
 	
