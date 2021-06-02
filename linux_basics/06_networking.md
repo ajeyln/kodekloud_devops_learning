@@ -16,3 +16,8 @@
 * ip route add default via <current network> - to connect current network to all newtork
 * traceroute <dest.ipaddress> - to trace the networks between current and destination devices.
 * ip link set dev <dest.device> up
+
+### Labs
+
+* DNS - Updated local host file (/etc/host), DNS server(/etc/resolv.conf) etc.
+* Network basic - connecting the current network to other network using ip route add , all network using ip route add default via etc. 
