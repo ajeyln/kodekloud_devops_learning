@@ -38,7 +38,7 @@
 * journal -b - log file with current boot
 * journal -u <service name> - log file particular service.
 
-### Lab
+### Labs
 
 + usage of SYSTEMD tool for services as follows
 	* systemctl start <service name> -  start the service
