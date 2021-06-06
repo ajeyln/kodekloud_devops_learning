@@ -94,6 +94,6 @@ ls -ld - first letter is identifier <br />
 
 ### Labs
 
-* Linux Kernel - Core commands such as lsblk, lscpu, lsmem etc.
-* Linux Kernel Modules and Filetypes - Boot modules commands such as systemctl,lshw,lsblk etc.
+1. Linux Kernel - Core commands such as lsblk, lscpu, lsmem etc.
+2. Linux Kernel Modules and Filetypes - Boot modules commands such as systemctl,lshw,lsblk etc.
 	
