@@ -40,7 +40,7 @@
 
 ### Labs
 
-+ usage of SYSTEMD tool for services as follows
+1. usage of SYSTEMD tool for services as follows
 	* systemctl start <service name> -  start the service
 	* systemctl stop <service name> -  stop the service
 	* systemctl restart <service name> -  restartstart the service
@@ -50,7 +50,7 @@
 	* systemctl status <service name> -  info(status) the service
 	* systemctl edit <service name> - to edit configuration service file
 	
-+ to generate log files using the following commands 
+2. To generate log files using the following commands 
 	* journalctl - log file of running services
 	* journal -b - log file with current boot
 	* journal -u <service name> - log file particular service.
