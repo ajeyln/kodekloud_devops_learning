@@ -77,11 +77,11 @@ Command for compress and extracting
 
 ### Labs
 
-* Working with shell - 
+1. Working with shell - 
 	+ compress command - bzip2, tar
 	+ redirection command - > and >> commands
 	+ searching pattern - grep -i word filename , grep word filename
 	
-* vi editor - editing, copy , delet in vi editor
+2. vi editor - editing, copy , delet in vi editor
 
 
