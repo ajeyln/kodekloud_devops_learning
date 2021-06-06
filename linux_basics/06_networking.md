@@ -19,5 +19,5 @@
 
 ### Labs
 
-* DNS - Updated local host file (/etc/host), DNS server(/etc/resolv.conf) etc.
-* Network basic - connecting the current network to other network using ip route add , all network using ip route add default via etc. 
+1. DNS - Updated local host file (/etc/host), DNS server(/etc/resolv.conf) etc.
+2. Network basic - connecting the current network to other network using ip route add , all network using ip route add default via etc. 
