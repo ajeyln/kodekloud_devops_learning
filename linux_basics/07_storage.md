@@ -103,44 +103,9 @@ Eg: **echo "/dev/sdb1 /mnt/ext4 ext4 rw 0 0" >> etc/fstab**
 * lvdisplay - to see logical volume
 * lvresise - to increase the logical volume
 
+### Creating a new Partition
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Lab - Creating a new Partition
-
+```
 sudo gdisk /dev/vdd
 [sudo] password for bob: 
 GPT fdisk (gdisk) version 1.0.3
@@ -169,3 +134,9 @@ PARTITIONS!!
 Do you want to proceed? (Y/N): y
 OK; writing new GUID partition table (GPT) to /dev/vdd.
 The operation has completed successfully.
+```
+
+### Labs
+
+1. Partition - Creating partiton of harddisk with different types of file system sing gdisk and related operations etc.
+2. External Storage- Accessing external storage and related tasks 
