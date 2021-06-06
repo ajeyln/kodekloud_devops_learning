@@ -183,8 +183,8 @@ Syntax :
 				statement n
 			}
 		
-		function_name() # calling function
-		```
+		function_name() ``` # calling function
+		
 
 ### Labs
 
