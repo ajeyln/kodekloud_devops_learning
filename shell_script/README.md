@@ -29,29 +29,29 @@ These notes have prepared based on [Shell Scripts for Beginners](https://beta.ko
 
 ### Command Line Argument
 
-* Argument should be passed while executing shell script, 
+* Argument should be passed while executing shell script, <br />
 	Eg: ``` bash print-name.sh Python ```
-* Can the access the argument in script as **$position** inside the script.
+* Can the access the argument in script as **$position** inside the script.<br />
 	Eg: ``` echo $1 ```
 
 ### Reading Input
 
-* The script will prompt the input from user while executing 
+* The script will prompt the input from user while executing <br />
 	Eg: ``` bash print-name.sh
 			Enter Name : Python ```
-* The prompting message is to be adjusted inside the script before specifying the variablle name 
+* The prompting message is to be adjusted inside the script before specifying the variablle name <br />
 	Eg: ```read -p "Enter Name:" name
 			echo $name ```
 			
 ### Arithmetic Operations
 
-* The arithmetic operation can be done using expr commands and should use \* while multiplication
+* The arithmetic operation can be done using expr commands and should use \* while multiplication <br />
 	Eg: ``` $ expr 6 + 3
 			$ expr 6 - 3
 			$ expr 6 / 3
 			$ expr 6 \* 3 ``` 
 
-* Also can be done double paranthesis without using expr command
+* Also can be done double paranthesis without using expr command <br />
 	Eg: ```	A=6
 			B=3
 			$ (( A+B ))
@@ -63,7 +63,8 @@ These notes have prepared based on [Shell Scripts for Beginners](https://beta.ko
 
 #### If condition
 
-+ **If then Statement**
++ **If then Statement** <br />
+
 syntax : 
 		```
 		if [condition]
@@ -72,7 +73,7 @@ syntax :
 		fi
 		```
 
-+ **If then else statement**
++ **If then else statement** <br />
 
 Syntax : 
 		```
@@ -84,7 +85,7 @@ Syntax :
 		fi
 		```
 
-+ **If then elif else**
++ **If then elif else** <br />
 
 Syntax : 
 		```
@@ -108,7 +109,7 @@ Syntax :
 * Iterate through lines within a file
 * Iterate through the output of a command
 
-+ **for loops with values**
++ **for loops with values** <br />
 
 Syntax:
 		```
@@ -118,7 +119,7 @@ Syntax:
 		done
 		```
 		
-+ **for loops with values and values exporting from the file**
++ **for loops with values and values exporting from the file** <br />
 
 Syntax: 
 		```
@@ -128,7 +129,7 @@ Syntax:
 		done
 		```
 		
-+ **for loops with conditions**
++ **for loops with conditions** <br />
 
 Syntax:
 		```
@@ -144,8 +145,7 @@ Syntax:
 
 * Execute a command or a set of commands multiple times but you are not sure how many times.
 * Execute a command or a set of commands until a specific condition occurs
-* Create infinite loops
-
+* Create infinite loops 
 
 Syntax:		
 		```
@@ -158,9 +158,9 @@ Syntax:
 ### SHEBANG
 
 If a script designed for perticular shell, the we need to mention shell type on the top of the 
-script this method is known as SHEBANG
+script this method is known as SHEBANG <br />
 
-Synatx: #!/bin/shell type
+Synatx: ```#!/bin/shell type```
 
 ### Function
 
