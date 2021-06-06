@@ -1,8 +1,10 @@
 <h1 align="center"> KodeKloud and Devops Learning</h1>
 
+This repository contains all my learnings in documentation and which have prepared with reference [KodeKloud](https://kodekloud.com/)
+
 ### BASICS  ( 10 Working days !)
 - [x] 01. [The Linux Basics Course(10hr 15min)](./linux_basics/README.md)  <br />
-- [ ] 02. Shell Scripts for Beginners (4hr 10min)  <br />
+- [x] 02. Shell Scripts for Beginners (4hr 10min)  <br />
 - [ ] 03. Python Entry Level Programmer(PCEP) Certification Course (7hr 40 min)   <br />
 - [ ] 04. GIT for Beginner(6hr 10min)  <br />
 - [ ] 05. JSON PATH Quiz- FREE COURSE(1hr 30min)  <br />
