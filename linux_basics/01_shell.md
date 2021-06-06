@@ -49,6 +49,6 @@ To determine the command is internal or external use the "type" command.
 
 ### Labs
 
-* Working with the shell - basic command such as mkdir, cp ls etc.
-* Linux bash prompt - basic bash command such chsh,export etc.
+1. Working with the shell - basic command such as mkdir, cp ls etc.
+2. Linux bash prompt - basic bash command such chsh,export etc.
 
