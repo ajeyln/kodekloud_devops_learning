@@ -64,7 +64,7 @@
 
 ### Labs
 
-* YUM and RPM - Installed packages using YUM and RPM , eg: YUM Install, rpm -ivh etc.
-* DPKG and apt - Installed packages using DPKG and APT , eg: apt remove, dpkg -l etc.
+1. YUM and RPM - Installed packages using YUM and RPM , eg: YUM Install, rpm -ivh etc.
+2. DPKG and apt - Installed packages using DPKG and APT , eg: apt remove, dpkg -l etc.
 
 
