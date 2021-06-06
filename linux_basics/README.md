@@ -1,5 +1,7 @@
 <h1 align="center"> Linux Basics </h1>
 
+This reposioty consists of notes related the following topics and which is prepared with help of [Linux Basics](https://beta.kodekloud.com/lessons/introduction-3/).<br /> 
+
 ### Ojectives
 * [Working with shell](./01_shell.md)
 * [Linux Core concepts](./02_core_concepts.md)
