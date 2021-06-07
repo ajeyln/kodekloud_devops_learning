@@ -1,4 +1,4 @@
-< h1 align="center"> PythonEntry Level Programmer Certification </h1>
+<h1 align="center"> Python Entry Level Programmer Certification </h1>
 
 These notes have prepared based on [Python Entry Level Programmer Certification ](https://beta.kodekloud.com/lessons/introduction-15/).<br /> 
 
