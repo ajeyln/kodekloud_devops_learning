@@ -6,7 +6,7 @@ This reposioty consists of notes related the following topics and which is prepa
 * [Working with shell](./01_shell.md)
 * [Linux Core concepts](./02_core_concepts.md)
 * [Package Management](./03_package_management.md)
-* [Shell & Bash](./04_working-shell.md)
+* [Shell & Bash](./04_working_shell.md)
 * [Security and file permission](./05_security_file_permission.md)
 * [Linux Networking](./06_networking.md)
 * [Storage in Linux](./07_storage.md)

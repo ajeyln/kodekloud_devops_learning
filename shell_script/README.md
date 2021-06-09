@@ -164,7 +164,7 @@ Synatx: ```#!/bin/shell type```
 
 ### Function
 
-#### Uses of While Loop
+#### Uses of Function
 
 * Break up large script that performs many different tasks:
 	+ Installing packages

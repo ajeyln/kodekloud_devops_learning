@@ -147,7 +147,88 @@ Eg:
 | <<	| Zero fill left shift	|Shift left by pushing zeros in from the right and let the leftmost bits fall off |
 | >>	| Signed right shift	|Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
 
+### Lists
 
+##### Charecteristic
+
+* Lists items are ordered, changeable and allow duplicate values.
+* Lists are created using square brackets.
+* The items can be of any data type.
+* Elements can be accessed by index and the first item has index [0]
+* Elements can also be accessed by Negative indexing, means start from the end and  -1 refers to the last item in the list.
+* Lists can be nested to arbitrary depth.
+
+#### Method and Functions in Lists
+
++ list() - to make a list.
++ len() - The function to find the count of the element in the list
++ sort() - The method to sort the elements in list in ascending order.
++ reverse() - The method tp reverse the element in the list
++ append() - The method to add element to the list
++ insert() - The method to insert the item to desired position
++ extend() - The method to append the element from another list
++ del - to delete the element from list
++ remove() - to remove the specified item from list
++ pop(index_number) - to remove specified index.
++ pop() - to remove last item 
++ clear() - to clear the list
++ To determine if a specified item is present in a list use the **in** keyword <br />
+Eg: 
+```python
+	thislist = ["apple", "banana", "cherry"]
+	if "apple" in thislist:
+	print("Yes, 'apple' is in the fruits list")
+```
+
+### Tuples
+
+##### Charecteristic
+
+* Tuple items are ordered, unchangeable, and allow duplicate values
+* Tuples are created using round brackets.
+* The items can be of any data type.
+* Elements can be accessed by index and the first item has index [0]
+* Elements can also be accessed by Negative indexing, means start from the end and  -1 refers to the last item as in lists.
+
+### Dictionary
+
+##### Charecteristic
+
+* A dictionary is a collection which is ordered, changeable and does not allow duplicates.
+* Dictionaries are written with curly brackets, and have keys and values
+* Elements can be accessed dictionary by referring to its key name, inside square brackets
+
+#### Method and Functions in List
+
+| Methods | Description |
+| ----- | ------- |
+| dict.clear() | Removes all elements of dictionary dict |
+| dict.copy() | copy of dictionary dict |
+| dict.keys() | Returns list of dictionary dict's keys |
+| dict.values()| Returns list of dictionary dict's values |
+| dict.items() | Returns a list of dict's (key, value) tuple pairs |
+| dict.popitem() | TO delete the last item  |
+
+### Functions
+
+* A function is a block of code which only runs when it is called.
+* We can pass the data to the function called arguments.
+* A function can return data as a result.
+
+Syntax :
+``` python
+		def function_name():
+				statement 1
+				statement 2
+				statement 3
+				.
+				.
+				.
+				statement n
+				return result
+		
+		function_name()  # calling function
+```
 
 ### Quiz
 
@@ -163,3 +244,7 @@ Eg:
 10. For loop
 11. Logical Operator
 12. Bitwise Operator
+13. Lists, List Methods, Slicing, Iterating & Nested Lists.
+14. Tuples
+15. Dictionaries
+16. Function arguments, return statement, scopes
