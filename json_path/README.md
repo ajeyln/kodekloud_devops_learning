@@ -39,14 +39,14 @@ It is set of property grouped together under item and each property of the items
 Eg:
 ```yaml
 Banana:
-	Calories: 105
-	Fat: 0.4g
-	Carbs: 27g
+  Calories: 105
+  Fat: 0.4g
+  Carbs: 27g
 
 Grapes:
-	Calories: 62
-	Fat: 0.3g
-	Carbs: 16g
+  Calories: 62
+  Fat: 0.3g
+  Carbs: 16g
 ```
 
 Note: The spaces for each property should be equal, else an extra space indicates the property of that property.
@@ -252,7 +252,7 @@ we can use the following operators to make filter expression.
 | <	| Less than.|
 | <= | 	Less than or equal to.|
 | && |Logical AND, used to combine multiple filter expressions: <br/>[?(@.category=='fiction' && @.price < 10)]|
-|\||\ | Logical OR, used to combine multiple filter expressions:<br />[?(@.category=='fiction' || @.price < 10)] |
+|\|\|| Logical OR, used to combine multiple filter expressions:<br />[?(@.category=='fiction' || @.price < 10)] |
 | in	 | Checks if the left-side value is present in the right-side list. |
 | nin	 | Checks that the left-side value is not present in the right-side list. String comparison is case-sensitive.|
 
