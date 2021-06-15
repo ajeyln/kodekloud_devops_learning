@@ -2,7 +2,7 @@
 
 ### Repository types
 
-There are two types repositories in git
+There are two types of repositories in Git
 
 #### 1. Local Repository
 
@@ -15,7 +15,7 @@ It is where we can add new content or modify/delete content in file.
 	
 b. **Staging area** - The files in this stage will soon be commited. Git knows what is going to change between the current commit and the next one. <br />
 	
-c. **commited file** - We can commit our changes in order to add version control to the project.
+c. **Commited file** - We can commit our changes in order to add version control to the project.
 
 ![Local Repository stages](./images/local_repo.jpg)
 	
@@ -28,3 +28,16 @@ c. **commited file** - We can commit our changes in order to add version control
 	
 ![Remote Repository stages](./images/remote_repo.jpg)
 
+### Some of the git commands
+
+| Command | Description |
+|------|-------|
+| git init | Initialises a Git repository in that directory|
+| git add file_name | the files moves to the staging area and which will soon be commited|
+| git commit -m ""
+| git log | Outputs a log of past commits with their commit messages |
+| git status | Outputs status, including what branch you are on and what changes are staged |
+
+### Labs
+
+1. Lab install Git - Installation, checking version
