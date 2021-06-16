@@ -8,7 +8,7 @@ Git is an open-source distributed version control system (means that we can go b
 
 ### Ojectives
 * [GIT Introduction](./01_git_introduction.md)
-* [GIT Branches](./)
+* [GIT Branches](./02_git_branches.md)
 * [Initialize Remote Repositories](./)
 * [Rebasing](./)
 * [Resetting and Reverting](./)
