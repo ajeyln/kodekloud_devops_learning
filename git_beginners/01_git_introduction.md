@@ -20,11 +20,12 @@ c. **Commited file** - We can commit our changes in order to add version control
 ![Local Repository stages](./images/local_repo.jpg)
 	
 
-#### 2. Remote Repository :- 
-	+ Remote repository is centralized server and it is optional. Data can be pushed to remote server after got commited.
-	+ As servers are centralized, Teammates can initilize their own local repository and pull/push  the data from/to server.
-	+ In order to keep local and remote repository in sync, can pull the changes from remote server to local repository.
-	+ Data can be retrieve from Remote repository, if local system got crashed or unavailable.
+#### 2. Remote Repository
+
++ Remote repository is centralized server and it is optional. Data can be pushed to remote server after got commited.
++ As servers are centralized, Teammates can initilize their own local repository and pull/push  the data from/to server.
++ In order to keep local and remote repository in sync, can pull the changes from remote server to local repository.
++ Data can be retrieve from Remote repository, if local system got crashed or unavailable.
 	
 ![Remote Repository stages](./images/remote_repo.jpg)
 
