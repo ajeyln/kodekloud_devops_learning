@@ -33,11 +33,24 @@ c. **Commited file** - We can commit our changes in order to add version control
 | Command | Description |
 |------|-------|
 | git init | Initialises a Git repository in that directory|
-| git add file_name | the files moves to the staging area and which will soon be commited|
-| git commit -m ""
-| git log | Outputs a log of past commits with their commit messages |
-| git status | Outputs status, including what branch you are on and what changes are staged |
+| git config user.name "username" | setting up user name for Git |
+| git config user.email "email address" | setting up email address |
+| git add file_name | the files moves to the staging area and which will soon to be commited|
+| git commit -m <message> | to commit the file with meaningful message so that other user can understand |
+| git log | Shows a log of past commits information with commit-id author, date and time commit, commit messages etc |
+| git log --oneline |  shows the commit with commit-id and commit messages |
+| git log --name-only |  shows the log  of past commits with file name |
+| git log --max-count 3 or git log -n 3 | lists the last 3 commits |
+| git status | Shows status, including what branch you are on and what changes are staged |
+| git restore file_name | discard changes in working area|
+| git restore --stages file_name | to move back to working area from staging area |
+| git rm --cached file_name |  move back to working area from staging area |
+| git rm --f file_name | force delete the file from staging area |
+
++ .gitignore  - this file contains the file_name which should be ignored
++ echo ".gitignore" >> .gitignore - this command makes .gitignore file should be ignored.
 
 ### Labs
 
-1. Lab install Git - Installation, checking version
+1. Install Git - Installation, checking version and basic git operations.
+2. Initialize git repository - Initilizing git repository, commiting, checking current status and logs.
