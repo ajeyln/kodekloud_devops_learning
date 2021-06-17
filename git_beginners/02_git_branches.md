@@ -19,10 +19,14 @@
 
 ### Git Merging
 
-Merging the branches with master branch.
+After the testing has done in branch and want to merge with master, we can use merge method to do it.
 
+Steps:
+1. Switch to master using **git checkout master**
+2. git merge <branch name> :  to merge the branch with master
 
 
 ### Labs
 
 1. Branches - checkout, push branches, switch branches etc.
+2. Merging - Merging branches
