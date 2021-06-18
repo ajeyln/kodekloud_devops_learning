@@ -41,4 +41,12 @@ This file contains all the commands, which are used in Git operations.
 	* git fetch : Download objects and refs from another repository
 	* git merge <branch name> - merging the branch with master
 
+## Initialize Remote Repository 
+
++ **Connection of Remote Repository & Cloning**** <br />
+	* git remote add origin <URL> : to connect the remote repository from local directory.
+	* git remote -v : to list all remote repository
+	* git push origin master : to push data to remote repository, Here origin is alias of remote repository and master is branch.
+	* git clone <ssh link> - to clone the remote repository, where ssh link is the URL of the remote repository.
+
 
