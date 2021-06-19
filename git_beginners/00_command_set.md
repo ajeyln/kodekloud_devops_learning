@@ -43,7 +43,7 @@ This file contains all the commands, which are used in Git operations.
 
 ## Initialize Remote Repository 
 
-+ **Connection of Remote Repository & Cloning**** <br />
++ **Connection of Remote Repository & Cloning** <br />
 	* git remote add origin <URL> : to connect the remote repository from local directory.
 	* git remote -v : to list all remote repository
 	* git push origin master : to push data to remote repository, Here origin is alias of remote repository and master is branch.
@@ -52,6 +52,13 @@ This file contains all the commands, which are used in Git operations.
 + **Fetching and Merging** <br />
 	* git fetch origin master : to update the origin master branch in local repository
 	* gir merge origin/master : to merge origin master with local master
-	* git pull origin master : to fetch the origin master branch and merge origin master with local master. 
+	* git pull origin master : to fetch the origin master branch and merge origin master with local master.
+
+## Rebasing
+
++ **Rebasing and Interactive Rebase** <br />
+	* git rebase master :  Reapply commits on top of another(master branch) base tip.
+	* git rebase -i Head~<no.of commits> : modifying the git history of multiple commits, Where no.of commits is number of lastest commits
+	* git cherry-picking <commit-hash> - to copy the commit onto the branch, where commit-hash is hash id of commit that we are using current branch.
 
 
