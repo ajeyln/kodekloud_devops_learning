@@ -12,7 +12,7 @@ This file contains all the commands, which are used in Git operations.
 	* git --version : to find the version of git (only if git is installed)
 	* git help : to get information about git commands
 	
-+ **git initialization, commit and status** <br />
++ **Git initialization, commit and status** <br />
 	* git init : Initialises a Git repository in that directory
 	* git config user.name <"username"> : Setting up user name for Git 
 	* git config user.email <"email address"> : setting up email address 
@@ -48,5 +48,10 @@ This file contains all the commands, which are used in Git operations.
 	* git remote -v : to list all remote repository
 	* git push origin master : to push data to remote repository, Here origin is alias of remote repository and master is branch.
 	* git clone <ssh link> - to clone the remote repository, where ssh link is the URL of the remote repository.
+
++ **Fetching and Merging** <br />
+	* git fetch origin master : to update the origin master branch in local repository
+	* gir merge origin/master : to merge origin master with local master
+	* git pull origin master : to fetch the origin master branch and merge origin master with local master. 
 
 
