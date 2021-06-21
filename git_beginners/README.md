@@ -9,8 +9,9 @@ Images used in this repository are downloaded from internet. I don't have owners
 Git is an open-source distributed version control system (means that we can go back in time without any changes)
 
 ### Ojectives
+* [GIT COMMAND SET](./00_command_set.md)
 * [GIT Introduction](./01_git_introduction.md)
 * [GIT Branches](./02_git_branches.md)
-* [Initialize Remote Repositories](./03_initiate_remote_repo)
+* [Initialize Remote Repositories](./03_initialize_remote_repo.md)
 * [Rebasing](./04_rebasing_cherry_pick.md)
 * [Resetting and Reverting](./05_resetting_reverting.md)
