@@ -17,7 +17,7 @@ We can connect the remote repository using connection string. It is a URL that w
 
 User having access remote repository can clone the repository in order to get all the data to local machines.
 
-+ git clone <ssh link> - to clone the remote repository, where ssh link is the URL of the remote repository.
++ git clone <SSH_LINK> - to clone the remote repository, where ssh link is the URL of the remote repository.
 
 ![SSH LINK](./images/ssh_link.jpg)
 
