@@ -9,10 +9,10 @@
 
 | Command | Description |
 |------|-------|
-| git branch <branch name> | creation of new branch  |
-| git checkout <branch name> | to switch the branch to branch |
-| git checkout -b <branch name> | creation of new branch and switching to it |
-| git checkout -d <branch name> | to delete the branch |
+| git branch <BRANCH_NAME> | creation of new branch  |
+| git checkout <BRANCH_NAME> | to switch the branch to branch |
+| git checkout -b <BRANCH_NAME> | creation of new branch and switching to it |
+| git checkout -d <BRANCH_NAME> | to delete the branch |
 | git branch | Check the list of branches in directory |
 
 * HEAD point to the last commit in the branch that we are working on.
@@ -23,7 +23,7 @@ After the testing has done in branch and want to merge with master, we can use m
 
 Steps:
 1. Switch to master using **git checkout master**
-2. git merge <branch name> :  to merge the branch with master
+2. git merge <BRANCH_NAME> :  to merge the branch with master
 
 
 ### Labs
