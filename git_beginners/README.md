@@ -13,4 +13,4 @@ Git is an open-source distributed version control system (means that we can go b
 * [GIT Branches](./02_git_branches.md)
 * [Initialize Remote Repositories](./03_initiate_remote_repo)
 * [Rebasing](./04_rebasing_cherry_pick.md)
-* [Resetting and Reverting](./)
+* [Resetting and Reverting](./05_resetting_reverting.md)
