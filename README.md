@@ -6,7 +6,7 @@ This repository contains all my learnings in documentation and which have prepar
 - [x] 01. [The Linux Basics Course(10hr 15min)](./linux_basics/README.md)  <br />
 - [x] 02. [Shell Scripts for Beginners(4hr 10min)](./shell_script/README.md)  <br />
 - [x] 03. [Python Entry Level Programmer(PCEP) Certification Course (7hr 40 min)](./python_pcep_certification/README.md)<br />
-- [ ] 04. [GIT for Beginner(6hr 10min)](./git_beginners/README.md)  <br />
+- [x] 04. [GIT for Beginner(6hr 10min)](./git_beginners/README.md)  <br />
 - [x] 05. [JSON PATH Quiz- FREE COURSE(1hr 30min)](./json_path/README.md)  <br />
 - [ ] 05. DevOps Pre-Requisite Course (8hr 50min)  <br />
 
