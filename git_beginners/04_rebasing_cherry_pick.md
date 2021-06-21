@@ -14,7 +14,7 @@ During the rebase the commit hash id will get updated. In other words we are mod
 
  We can rebase the Git history of multiple commits by using interactive Rebasing
  
- + git rebase -i Head~<no.of commits> - modifying the git history of multiple commits, Where no.of commits is number of lastest commits
+ + git rebase -i Head~<No.of COMMITS> - modifying the git history of multiple commits, Where no.of commits is number of lastest commits
  
  This command will open a file where we need to need specify how we need to change pick to squash the commits <br />
  so that the commits will go under the commits and the commit saved as default will remain tip of the commits
