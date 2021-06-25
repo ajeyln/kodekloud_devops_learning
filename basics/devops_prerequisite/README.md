@@ -3,7 +3,7 @@
 This reposioty consists of notes related the following topics and which is prepared with help of [DevOps Pre-requisites](https://beta.kodekloud.com/courses/devops-pre-requisite-course/). 
 
 ### Ojectives
-* [LINUX BASICS](./)
+* [LINUX BASICS](./01_linux_basics.md)
 * [SETUP LAB ENVIORNMENT](./)
 * [LINUX NETWORKING BASICS](./)
 * [SCM BASICS - GIT](./)
