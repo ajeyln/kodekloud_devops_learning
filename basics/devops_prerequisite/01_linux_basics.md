@@ -59,6 +59,8 @@
 
 ### Services
 
+A service is a process or group of processes running continuously in the background.
+
 ##### commands under systemctl
 
 * systemctl start <SERVICE_NAME> :  start the service
