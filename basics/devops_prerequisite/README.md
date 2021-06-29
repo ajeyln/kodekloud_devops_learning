@@ -4,7 +4,7 @@ This reposioty consists of notes related the following topics and which is prepa
 
 ### Ojectives
 * [LINUX BASICS](./01_linux_basics.md)
-* [SETUP LAB ENVIORNMENT](./)
+* [SETUP LAB ENVIORNMENT](./02_lab_enviornment.md)
 * [LINUX NETWORKING BASICS](./)
 * [SCM BASICS - GIT](./)
 * [APPLICATION BASICS](./)
