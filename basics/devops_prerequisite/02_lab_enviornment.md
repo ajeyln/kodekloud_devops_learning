@@ -55,6 +55,59 @@ ip addresses so that that can connect each other and also with outside world, bu
 + Port forwarding : It allows to map a port on the host to a port on the guest.
 	Eg: port 80 on the host could be mapped to port 80 on the guest so that any traffic on port 80 on the host is fowarded to 80 on the guest.
 
+#### Multiple VMs & Networking
+
+One way to create Multiple VMs is to clone the existing VM.
+
+There are two types of cloning in Virtual Box
+
+1. Full Clone : It creates a full copy of the disk used by existing VM, consuming equal amount of new space.
+2. Linked Clone : It uses the disk of the existing VM and only consumes spacefor the changes made in new VM.
+
+##### Steps to creating network the Multiple VMs
+
++ Host-only network configure by clicking File (Virtual box) --> Host Network Manager --> Create a new network by clicking enable button.
++ If already NAT is already configured, Select the VM --> Network -->  Adpter 2 and select respective Host-only network
+
+Network Option for Multiple VMs.
+
+| VM can reach internet/other systems in the network | VMs can reach each other | Host can reach VM (without port forwarding | Other system in network can reach VM | Solution |
+|-------------------------| -----------------| --------------------- | ----------------- | --------------- |
+| Yes | No | No | No | NAT|
+| Yes | Yes | No | No | NAT Network |
+| No | Yes | Yes | No | Host Network |
+| Yes | Yes | Yes| No | Host Network + NAT |
+| Yes | Yes | Yes | yes| Bridged |
+
+###### Backup and retrieve the data of VM
+
++ Snapshot feature  : This feature is used to backup of VMs state at particular point of time and then restore to that at later point of time.
++ Using snapshot feature, can clone new VM.
+
+##### Vagrant
+
+Vagrant is a tool for building and managing virtual machine environments in a single workflow with an easy-to-use workflow and focus on automation.
+
+|Commands | Description |
+| -------------- | --------------- |
+| vagrant init  |  Initialize Vagrant with a Vagrantfile |
+| vagrant up  | starts vagrant environment  |
+| vagrant resume  | resume a suspended machine |
+| vagrant reload | restarts vagrant machine, loads new Vagrantfile configuration |
+| vagrant ssh  | connects to machine via SSH |
+| vagrant halt  |  stops the vagrant machine |
+| vagrant suspend | suspends a virtual machine |
+| vagrant destroy | stops and deletes all traces of the vagrant machine |
+| vagrant box list  | see a list of all installed boxes on your computer |
+| vagrant box add <name> <url> | download a box image to your computer |
+| vagrant box outdated | check for updates vagrant box update |
+| vagrant boxes remove <name> | deletes a box from the machine |
+| vagrant package |  packages a running virtualbox env in a reusable box |
+
++ Vagrant file
+
+Vagrantfile is to described the virtual machines required for a project as well as how to configure and provision these machines.
+
 ### Reference
 
 1. Download - Oracle Virtual Box : https://www.virtualbox.org/wiki/Downloads
