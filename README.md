@@ -3,11 +3,11 @@
 This repository contains all my learnings in documentation and which have prepared with reference [KodeKloud](https://kodekloud.com/)
 
 ### BASICS
-- [x] 01. [The Linux Basics Course(10hr 15min)](./basics/linux_basics/README.md)  <br />
-- [x] 02. [Shell Scripts for Beginners(4hr 10min)](./basics/shell_script/README.md)  <br />
-- [x] 03. [Python Entry Level Programmer(PCEP) Certification Course (7hr 40 min)](./basics/python_pcep_certification/README.md)<br />
-- [x] 04. [GIT for Beginner(6hr 10min)](./basics/git_beginners/README.md)  <br />
-- [x] 05. [JSON PATH Quiz- FREE COURSE(1hr 30min)](./basics/json_path/README.md)  <br />
+- [x] 01. [The Linux Basics Course](./basics/linux_basics/README.md)  <br />
+- [x] 02. [Shell Scripts for Beginners](./basics/shell_script/README.md)  <br />
+- [x] 03. [Python Entry Level Programmer(PCEP) Certification Course](./basics/python_pcep_certification/README.md)<br />
+- [x] 04. [GIT for Beginner](./basics/git_beginners/README.md)  <br />
+- [x] 05. [JSON PATH Quiz- FREE COURSE](./basics/json_path/README.md)  <br />
 - [ ] 05. [DevOps Pre-Requisite Course (8hr 50min)](./basics/devops_prerequisite/README.md)  <br />
 
 ### SPECIALIZATION
