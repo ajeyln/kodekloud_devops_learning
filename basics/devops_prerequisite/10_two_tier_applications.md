@@ -41,4 +41,3 @@ to enable communication between server and applications or databases etc.
 ### Labs
 
 1. Setup E-Comerce application - Installing and configuring the 2-Tier Lab enviornment, Testing.
-2. 
