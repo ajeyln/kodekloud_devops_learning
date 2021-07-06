@@ -8,7 +8,7 @@ This repository contains all my learnings in documentation and which have prepar
 - [x] 03. [Python Entry Level Programmer(PCEP) Certification Course](./basics/python_pcep_certification/README.md)<br />
 - [x] 04. [GIT for Beginner](./basics/git_beginners/README.md)  <br />
 - [x] 05. [JSON PATH Quiz- FREE COURSE](./basics/json_path/README.md)  <br />
-- [ ] 05. [DevOps Pre-Requisite Course (8hr 50min)](./basics/devops_prerequisite/README.md)  <br />
+- [x] 06. [DevOps Pre-Requisite Course](./basics/devops_prerequisite/README.md)  <br />
 
 ### SPECIALIZATION
 - [ ] 06. Docker for the Absolute Beginner - Hands On(6hr 35min)  <br />
