@@ -21,7 +21,7 @@ Docker can be installed by visiting docs.docker.com --> Select docker as per the
 
 ### Ojectives
 * [Docker Commands](./01_docker_command.md)
-* [Docker run](./)
+* [Docker run](./02_docker_run.md)
 * [Docker Images]
 * [Docker Compose]
 * [Docker Engine, Storage]
