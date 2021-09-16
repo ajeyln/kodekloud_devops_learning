@@ -47,8 +47,9 @@ The writable layer is used to store data created by the container such as log fi
 by the container or just any file modified by the user on that container and the life of this layer is only long as the container alive.
 
 In order to save the persit the data of container, we need to create a volume using ```docker volume create <Volume_Name>```  <br />
-when we run this command, it creates folder called <Volume_Name> under Volume directory. Then we run the docker container using the docker run  <br />
-command , we could mount this volume inside the docker container using command ```docker run -v <Volume_Name>:/var/lib/<DB NAME> DB_IMAGE``` <br />
+when we run this command, it creates folder called <Volume_Name> under Volume directory. Then we run the docker container using  <br />
+the docker run command , we could mount this volume inside the docker container using command  <br />
+```docker run -v <Volume_Name>:/var/lib/<DB NAME> DB_IMAGE``` <br/>
 evenif, the container destroyed the data stored in this volume and this method is called Volume Mounting.
 
 If we want to store externally like external devices. In this case we can mount the device using the command <br/> 
