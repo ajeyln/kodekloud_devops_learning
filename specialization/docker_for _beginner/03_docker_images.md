@@ -62,11 +62,11 @@ ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask  run
 ```
 
 In the above example the docker will create layer as follows (these information is available in build command):<br />
-	* Layer 1 - Base Ubuntu OS layer
-	* Layer 2 - Changes in apt packages
-	* Layer 3 - Changes in pip packages
-	* Layer 4 - Source Code
-	* Layer 5 - Update Entrypoint with "flask" command
+* Layer 1 - Base Ubuntu OS layer
+* Layer 2 - Changes in apt packages
+* Layer 3 - Changes in pip packages
+* Layer 4 - Source Code
+* Layer 5 - Update Entrypoint with "flask" command
 
 We can check the layer with size information for each layer using the command
 ``` docker history <dockerfile_name>```
