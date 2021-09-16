@@ -6,12 +6,12 @@ The Centrl repository, where all Docker images are store are called Docker Regis
 
 when we create a container with an image naming convention, we need to use pattern <br />
 ``` docker run <DNS NAME>/ <User /Account Name>/<Image/repository>``` <br />
-	* The Default registry is Docker Hub and DNS name of Docker Hub is docker.io 
-	* If we are not specified location,the image will be store or pulled from default location.
-	* User name is docker hub account name or organization name.
-	* If we don't provide user/account name or repository name it assumes that it is that same as the given <br />
-		Eg: When we want to create container with Nginx image, we can pull image as 
-			```docker run nginx or docker run nginx/nginx```
+* The Default registry is Docker Hub and DNS name of Docker Hub is docker.io 
+* If we are not specified location,the image will be store or pulled from default location.
+* User name is docker hub account name or organization name.
+* If we don't provide user/account name or repository name it assumes that it is that same as the given <br />
+	Eg: When we want to create container with Nginx image, we can pull image as 
+	```docker run nginx or docker run nginx/nginx```
 
 ### Private Registry
 
