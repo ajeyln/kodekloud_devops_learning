@@ -11,11 +11,7 @@ This repository contains all my learnings in documentation and which have prepar
 - [x] 06. [DevOps Pre-Requisite Course](./basics/devops_prerequisite/README.md)  <br />
 
 ### SPECIALIZATION
-<<<<<<< Updated upstream
-- [x] 06. [Docker for the Absolute Beginner - Hands On](./specialization/docker_for _beginner/README.md)  <br />
-=======
 - [x] 06. [Docker for the Absolute Beginner - Hands On]((./specialization/docker_for_beginner/README.md)  <br />
->>>>>>> Stashed changes
 - [ ] 07. Docker Certified Associate Exam Course(27hr 35min)  <br />
 - [ ] 08. Kubernetes for the Absolute Beginners - Hands-on(10hr 11min)  <br />
 - [ ] 09. Certified Kubernetes Application Developer (CKAD) (23hr 40min)  <br />
